@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "City" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "state" TEXT NOT NULL,
+    "mapUrl" TEXT NOT NULL,
+    "featured" BOOLEAN NOT NULL DEFAULT false,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
